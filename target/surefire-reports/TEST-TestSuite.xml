@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="384.339" tests="10" errors="0" skipped="2" failures="2">
+  <properties>
+    <property name="idea.version" value="2022.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="18.0.1+10-24"/>
+    <property name="sun.boot.library.path" value="C:\Users\User\.jdks\openjdk-18.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\maantic-workspace\IntelliJ-workplace\pega-automation-framework"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\maantic-workspace\IntelliJ-workplace\pega-automation-framework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="18.0.1+10-24"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\User\.jdks\openjdk-18.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\apache-maven-3.8.5\bin;C:\allure-2.9.0\bin;C:\Program Files (x86)\Java\jdk\bin;C:\Program Files (x86)\Java\jdk\bin;C:\Program Files\Git\cmd;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\bin;;C:\apache-maven-3.8.5\bin;;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="62.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\User"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="18"/>
+    <property name="user.name" value="User"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.1 test"/>
+    <property name="java.home" value="C:\Users\User\.jdks\openjdk-18.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="18.0.1"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="TC_01_VerifyLoginPageTitle" classname="com.maantic.automation.tests.LoginTest" time="0.16"/>
+  <testcase name="TC_02_VerifyLoggedInSuccessfully" classname="com.maantic.automation.tests.LoginTest" time="12.042"/>
+  <testcase name="TC_01_VerifyDashboardPageTitle" classname="com.maantic.automation.tests.DashboardTest" time="13.892"/>
+  <testcase name="TC_02_VerifyLoggedInUserName" classname="com.maantic.automation.tests.DashboardTest" time="5.512"/>
+  <testcase name="TC_01_VerifyIsNewContactPageDisplayed" classname="com.maantic.automation.tests.CreateContactTest" time="0">
+    <skipped message="expected [true] but found [false]"/>
+    <system-out><![CDATA[Chrome browser is opening....
+I am in onTestStart method TC_01_VerifyIsNewContactPageDisplayed start
+TC_01_VerifyIsNewContactPageDisplayed is called...
+true
+I am in onTestSkipped method TC_01_VerifyIsNewContactPageDisplayed skipped
+]]></system-out>
+    <system-err><![CDATA[ChromeDriver was started successfully.
+Aug 23, 2022 3:48:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 23, 2022 3:48:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: a no-op implementation
+Aug 23, 2022 3:48:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 104.
+Aug 23, 2022 3:48:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="TC_01_VerifyIsNewContactPageDisplayed" classname="com.maantic.automation.tests.CreateContactTest" time="31.006">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.maantic.automation.tests.CreateContactTest.TC_01_VerifyIsNewContactPageDisplayed(CreateContactTest.java:43)
+</failure>
+    <system-out><![CDATA[Chrome browser is opening....
+I am in onTestStart method TC_01_VerifyIsNewContactPageDisplayed start
+TC_01_VerifyIsNewContactPageDisplayed is called...
+true
+I am in onTestFailure method TC_01_VerifyIsNewContactPageDisplayed failed
+Screenshot captured for test case:TC_01_VerifyIsNewContactPageDisplayed
+]]></system-out>
+    <system-err><![CDATA[ChromeDriver was started successfully.
+Aug 23, 2022 3:48:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 23, 2022 3:48:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: a no-op implementation
+Aug 23, 2022 3:48:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 104.
+Aug 23, 2022 3:48:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="TC_02_CreateNewContactSuccessfully" classname="com.maantic.automation.tests.CreateContactTest" time="46.217"/>
+  <testcase name="TC_02_CreateNewContactSuccessfully" classname="com.maantic.automation.tests.CreateContactTest" time="0">
+    <skipped message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),&apos;gopal.sutradhar@maantic.com&apos;)] (tried for 30 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;&#10;System info: host: &apos;GOPALS&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57607/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e652ab623006e498a320841530234942"/>
+    <system-out><![CDATA[Chrome browser is opening....
+I am in onTestStart method TC_02_CreateNewContactSuccessfully start
+TC_02_CreateNewContactSuccessfully is called...
+I am in onTestSkipped method TC_02_CreateNewContactSuccessfully skipped
+]]></system-out>
+    <system-err><![CDATA[ChromeDriver was started successfully.
+Aug 23, 2022 3:50:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 23, 2022 3:50:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: a no-op implementation
+Aug 23, 2022 3:50:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 104.
+Aug 23, 2022 3:50:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="TC_02_CreateNewContactSuccessfully" classname="com.maantic.automation.tests.CreateContactTest" time="75.48">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),&apos;gopal.sutradhar@maantic.com&apos;)] (tried for 30 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;&#10;System info: host: &apos;GOPALS&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57738}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57738/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 20e1f6dffb1b1bac28dbc93b610eafb2" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),'gopal.sutradhar@maantic.com')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'GOPALS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57738}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57738/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 20e1f6dffb1b1bac28dbc93b610eafb2
+	at com.maantic.automation.tests.CreateContactTest.TC_02_CreateNewContactSuccessfully(CreateContactTest.java:72)
+</failure>
+    <system-out><![CDATA[Test Case Name: TC_02_CreateNewContactSuccessfully
+Test Case Name: TC_02_CreateNewContactSuccessfully
+Chrome browser is opening....
+I am in onTestStart method TC_02_CreateNewContactSuccessfully start
+TC_02_CreateNewContactSuccessfully is called...
+I am in onTestFailure method TC_02_CreateNewContactSuccessfully failed
+Screenshot captured for test case:TC_02_CreateNewContactSuccessfully
+]]></system-out>
+    <system-err><![CDATA[ChromeDriver was started successfully.
+Aug 23, 2022 3:51:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 23, 2022 3:51:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: a no-op implementation
+Aug 23, 2022 3:51:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 104.
+Aug 23, 2022 3:51:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="TC_01_VerifySearchingNewlyCreatedContact" classname="com.maantic.automation.tests.SearchContactTest" time="29.031"/>
+</testsuite>

@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Pega Demo - Automation</th></tr>
+<tr><td><a href="#t0">Pega Demo - Automation Test</a></td><td class="num">6</td><td class="num">0</td><td class="num attn">2</td><td class="num attn">2</td><td class="num">381,543</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Pega Demo - Automation</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Pega Demo - Automation Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.maantic.automation.tests.CreateContactTest</td><td><a href="#m0">TC_01_VerifyIsNewContactPageDisplayed</a></td><td rowspan="1">1661249921853</td><td rowspan="1">30343</td></tr><tr class="failedeven"><td><a href="#m1">TC_02_CreateNewContactSuccessfully</a></td><td rowspan="1">1661250094338</td><td rowspan="1">75299</td></tr><tr><th colspan="4">Pega Demo - Automation Test &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="2">com.maantic.automation.tests.CreateContactTest</td><td><a href="#m2">TC_01_VerifyIsNewContactPageDisplayed</a></td><td rowspan="1">1661249886916</td><td rowspan="1">26915</td></tr><tr class="retriedeven"><td><a href="#m3">TC_02_CreateNewContactSuccessfully</a></td><td rowspan="1">1661250011517</td><td rowspan="1">76524</td></tr><tr><th colspan="4">Pega Demo - Automation Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.maantic.automation.tests.CreateContactTest</td><td><a href="#m4">TC_02_CreateNewContactSuccessfully</a></td><td rowspan="1">1661249959932</td><td rowspan="1">46217</td></tr><tr class="passedodd"><td rowspan="2">com.maantic.automation.tests.DashboardTest</td><td><a href="#m5">TC_01_VerifyDashboardPageTitle</a></td><td rowspan="1">1661249855231</td><td rowspan="1">13894</td></tr><tr class="passedodd"><td><a href="#m6">TC_02_VerifyLoggedInUserName</a></td><td rowspan="1">1661249875402</td><td rowspan="1">5512</td></tr><tr class="passedeven"><td rowspan="2">com.maantic.automation.tests.LoginTest</td><td><a href="#m7">TC_01_VerifyLoginPageTitle</a></td><td rowspan="1">1661249830819</td><td rowspan="1">158</td></tr><tr class="passedeven"><td><a href="#m8">TC_02_VerifyLoggedInSuccessfully</a></td><td rowspan="1">1661249836972</td><td rowspan="1">12042</td></tr><tr class="passedodd"><td rowspan="1">com.maantic.automation.tests.SearchContactTest</td><td><a href="#m9">TC_01_VerifySearchingNewlyCreatedContact</a></td><td rowspan="1">1661250175656</td><td rowspan="1">29032</td></tr></tbody>
+</table>
+<h2>Pega Demo - Automation Test</h2><h3 id="m0">com.maantic.automation.tests.CreateContactTest#TC_01_VerifyIsNewContactPageDisplayed</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.maantic.automation.tests.CreateContactTest.TC_01_VerifyIsNewContactPageDisplayed(CreateContactTest.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.maantic.automation.tests.CreateContactTest#TC_02_CreateNewContactSuccessfully</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Email=avinash.gupta@maantic.com, Prefix=Mr., LastName=Gupta_Test, TCName=TC_02_CreateNewContactSuccessfully, FirstName=Avinash_Test}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),&apos;gopal.sutradhar@maantic.com&apos;)] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;GOPALS&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57738}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57738/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 20e1f6dffb1b1bac28dbc93b610eafb2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.maantic.automation.utils.CommonUtils.waitForVisibilityOfElement(CommonUtils.java:87)
+	at com.maantic.automation.pages.ContactPage.isNewContactCreatedSuccessfully(ContactPage.java:38)
+	at com.maantic.automation.tests.CreateContactTest.TC_02_CreateNewContactSuccessfully(CreateContactTest.java:72)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.maantic.automation.tests.CreateContactTest#TC_01_VerifyIsNewContactPageDisplayed</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.maantic.automation.tests.CreateContactTest.TC_01_VerifyIsNewContactPageDisplayed(CreateContactTest.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.maantic.automation.tests.CreateContactTest#TC_02_CreateNewContactSuccessfully</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Email=avinash.gupta@maantic.com, Prefix=Mr., LastName=Gupta_Test, TCName=TC_02_CreateNewContactSuccessfully, FirstName=Avinash_Test}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),&apos;gopal.sutradhar@maantic.com&apos;)] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;GOPALS&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57607/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e652ab623006e498a320841530234942
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.maantic.automation.utils.CommonUtils.waitForVisibilityOfElement(CommonUtils.java:87)
+	at com.maantic.automation.pages.ContactPage.isNewContactCreatedSuccessfully(ContactPage.java:38)
+	at com.maantic.automation.tests.CreateContactTest.TC_02_CreateNewContactSuccessfully(CreateContactTest.java:72)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.maantic.automation.tests.CreateContactTest#TC_02_CreateNewContactSuccessfully</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Email=gopal.sutradhar@maantic.com, Prefix=Mr., LastName=Sutradhar_Test, TCName=TC_02_CreateNewContactSuccessfully, FirstName=Gopal_Test}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.maantic.automation.tests.DashboardTest#TC_01_VerifyDashboardPageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.maantic.automation.tests.DashboardTest#TC_02_VerifyLoggedInUserName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.maantic.automation.tests.LoginTest#TC_01_VerifyLoginPageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.maantic.automation.tests.LoginTest#TC_02_VerifyLoggedInSuccessfully</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.maantic.automation.tests.SearchContactTest#TC_01_VerifySearchingNewlyCreatedContact</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 384.339 sec <<< FAILURE! - in TestSuite
+TC_01_VerifyIsNewContactPageDisplayed(com.maantic.automation.tests.CreateContactTest)  Time elapsed: 31.006 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.maantic.automation.tests.CreateContactTest.TC_01_VerifyIsNewContactPageDisplayed(CreateContactTest.java:43)
+
+TC_02_CreateNewContactSuccessfully(com.maantic.automation.tests.CreateContactTest)  Time elapsed: 75.48 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),'gopal.sutradhar@maantic.com')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'GOPALS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57738}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57738/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 20e1f6dffb1b1bac28dbc93b610eafb2
+	at com.maantic.automation.tests.CreateContactTest.TC_02_CreateNewContactSuccessfully(CreateContactTest.java:72)
+
